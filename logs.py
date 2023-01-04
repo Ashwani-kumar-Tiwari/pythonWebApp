@@ -24,7 +24,7 @@ tmap = tag_map_module.TagMap()
 
 # TODO: replace the all-zero GUID with your instrumentation key.
 exporter = metrics_exporter.new_metrics_exporter(
-    connection_string='InstrumentationKey=8efc7353-19c8-4a3f-96ec-6d40d9482e1f')
+    connection_string='InstrumentationKey=bb858ff4-8d41-415d-a18d-ae0ebcfceda2')
 # You can also instantiate the exporter directly if you have the environment variable
 # `APPLICATIONINSIGHTS_CONNECTION_STRING` configured
 # exporter = metrics_exporter.new_metrics_exporter()
